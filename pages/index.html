@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    
+    <title>Página web</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fdf9e3;" id="home">
+            <a class="navbar-brand" href="#"><img src="../image/logo.png" alt="" width=100px ></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar navbar-light">
+              <form class="form-inline my-2 my-lg-0">
+                <svg class="icono" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+              </form>
+            </nav>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto d-flex justify-content-between ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#producto">Producto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#precios">Precios</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+
+  <main class="container mt-4">
+  <div class="row">
+      <div class="row">
+          <div class="col">
+              <div class="row mb-3">
+                <div class="col-l">
+                  <div class="card-img mb-3">
+                    <img src="../image/header.jpg" class="card-img-header" alt="">
+                    <a href="#producto" class="btn btn-success">Producto principal</a>
+                  </div>
+
+                  <div class="share" style="text-align: right;">
+                    Compartir
+                    <i class="icon-share fab fa-facebook"></i>
+                    <i class="icon-share fab fa-google"></i>
+                    <i class="icon-share fab fa-twitter"></i>
+                  </div>
+                  <div class="mb-3" style="text-align: right;">
+                    <a class="close-ad" href="">x</a>
+                    <img src="../image/ad5.jpg" class="card-img-ad" alt="">
+                  </div>
+                  <div class="card-img mb-3" id="producto">
+                    <img src="../image/prod.jpg" class="card-img-header" alt="" style="margin-top: 50px;">
+                    <h2> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M11.134 1.535C9.722 2.562 8.16 4.057 6.889 5.312 5.8 6.387 5.041 7.401 4.575 8.294a3.745 3.745 0 00-3.227 1.054c-.43.431-.69 1.066-.86 1.657a11.982 11.982 0 00-.358 1.914A21.263 21.263 0 000 15.203v.054l.75-.007-.007.75h.054a14.404 14.404 0 00.654-.012 21.243 21.243 0 001.63-.118c.62-.07 1.3-.18 1.914-.357.592-.17 1.226-.43 1.657-.861a3.745 3.745 0 001.055-3.217c.908-.461 1.942-1.216 3.04-2.3 1.279-1.262 2.764-2.825 3.775-4.249.501-.706.923-1.428 1.125-2.096.2-.659.235-1.469-.368-2.07-.606-.607-1.42-.55-2.069-.34-.66.213-1.376.646-2.076 1.155zm-3.95 8.48a3.76 3.76 0 00-1.19-1.192 9.758 9.758 0 011.161-1.607l1.658 1.658a9.853 9.853 0 01-1.63 1.142zM.742 16l.007-.75-.75.008A.75.75 0 00.743 16zM12.016 2.749c-1.224.89-2.605 2.189-3.822 3.384l1.718 1.718c1.21-1.205 2.51-2.597 3.387-3.833.47-.662.78-1.227.912-1.662.134-.444.032-.551.009-.575h-.001V1.78c-.014-.014-.112-.113-.548.027-.432.14-.995.462-1.655.942zM1.62 13.089a19.56 19.56 0 00-.104 1.395 19.55 19.55 0 001.396-.104 10.528 10.528 0 001.668-.309c.526-.151.856-.325 1.011-.48a2.25 2.25 0 00-3.182-3.182c-.155.155-.329.485-.48 1.01a10.515 10.515 0 00-.309 1.67z"></path></svg> Tienda de artes</h2>
+                    ​<h3>Encuentra todo lo necesario para desarrollar
+                      actividades relacionadas con el arte, el diseño y la
+                      creatividad.</h3>
+                  </div>
+              
+                  <h2 class="precios" id="precios"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path></svg> Precios</h2>
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="../image/precios1.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Pinturas</h5>
+                        <p class="card-text">Óleo, acrílico, acuarela y témpera</p>
+                        <p class="card-text"><small class="text-muted">$ 20.000</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="../image/precios2.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Pinceles y espátulas</h5>
+                        <p class="card-text">De diferentes tamaños y formas</p>
+                        <p class="card-text"><small class="text-muted">$ 10.000</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="../image/precios3.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Lienzos y bastidores</h5>
+                        <p class="card-text">Lienzos, bastidores, tablillas, rollos de tela...</p>
+                        <p class="card-text"><small class="text-muted">$ 30.000</small></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <h2 class="precios"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.156 1.835a.25.25 0 00-.312 0l-5.25 4.2a.25.25 0 00-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v5.25h2.75a.25.25 0 00.25-.25V6.23a.25.25 0 00-.094-.195l-5.25-4.2zM6.906.664a1.75 1.75 0 012.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0113.25 15h-3.5a.75.75 0 01-.75-.75V9H7v5.25a.75.75 0 01-.75.75h-3.5A1.75 1.75 0 011 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2h-.001z"></path></svg> Tiendas</h2>
+                  <div class="card" style="width: 18rem;">
+                    <img src="../image/tiendas1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">P.C. El Tesoro</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Dirección: Colombia
+                        Antioquia
+                        Medellín
+                        5001000
+                        Carrera 25 A # 1 A Sur - 45</li>
+                      <li class="list-group-item">Información: Local 1290</li>
+                      <li class="list-group-item">Teléfono: (034) 3210879</li>
+                      <li class="list-group-item"><h5>HORARIOS: </h5>
+                        <h6>L - S: 10:00 a.m. - 7:00 p.m.</h6>
+                        <h6>D y F: 11:00 a.m. - 6:00 p.m.</h6></li>
+                    </ul>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="../image/tiendas2.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">C.C. Santafé</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Dirección: Colombia
+                        Antioquia
+                        Medellín
+                        5001000
+                        Carrera. 43 A # 7 Sur - 170</li>
+                      <li class="list-group-item">Información: Local 3191</li>
+                      <li class="list-group-item">Teléfono: (034) 3132461</li>
+                      <li class="list-group-item"><h5>HORARIOS: </h5>
+                        <h6>L - S: 10:00 a.m. - 7:00 p.m.</h6>
+                        <h6>D y F: 11:00 am - 7:00 pm</h6></li>
+                    </ul>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="../image/tiendas3.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">C.C. Los Molinos</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Dirección: Colombia
+                        Antioquia
+                        Medellín
+                        5001000
+                        Calle 66 B # 34 - 98</li>
+                      <li class="list-group-item">Información: Local 2037</li>
+                      <li class="list-group-item">Teléfono: (034) 2356242</li>
+                      <li class="list-group-item"><h5>HORARIOS: </h5>
+                        <h6>L - D: 10:00 a.m. - 7:00 p.m.</h6>
+                        <h6>D y F: 11:00 am - 7:00 pm</h6>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="../image/tiendas4.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">C.C. Mayorca - Megaplaza</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Dirección: Colombia
+                        Antioquia
+                        Sabaneta
+                        05001000
+                        Calle 51 Sur # 48 - 57</li>
+                      <li class="list-group-item">Información: Local 3089</li>
+                      <li class="list-group-item">Teléfono: (034) 3664434</li>
+                      <li class="list-group-item"><h5>HORARIOS: </h5>
+                        <h6>L - D: 11:00 a.m. - 7:00 p.m.</h6>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <h2 class="precios"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg> Descarga la APP</h2>
+                  <div class="card-app mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="../image/app1.png" class="card-img" alt="">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <p class="card-text-app"><img src="../image/app2.png" alt="" width="200px"></p>
+                          <p class="card-text-app"><img src="../image/app3.png" alt="" width="200px"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <h2 class="precios"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"></path></svg> Agregar comentario</h2>
+
+                  <div class="row mb-3">
+                    <form style="width: 90%; margin-left: 30px;">
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Comentario</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Nombre</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Publicar comentario</button>
+                    </form>
+                  </div>
+
+                </div>
+              </div>
+
+          </div>
+
+          
+
+
+          <div class="col-3 d-none d-lg-block">
+              <h5 class="text-center text-secondary">Popular</h5>
+              <div class="ads">
+                  <a href=""><img class="mb-2" src="../image/ad1.jpg" alt="" width="270">Cartulina acuarela</a>
+                  <a href=""><img class="mb-2" src="../image/ad2.jpg" alt="" width="270">Paleta plástica para mezclar pintura</a>
+                  <a href=""><img class="mb-2" src="../image/ad3.jpg" alt="" width="270">Pintura acrílica</a>
+                  <a href=""><img class="mb-2" src="../image/ad4.jpg" alt="" width="270">Difumino</a>
+              </div>
+              <div class="ads">
+                <a class="mr-3" href="https://www.facebook.com/YulivArts"><img src="../image/fb.jpg" alt="" width="290">Sé el primero de tus amigos en indicar que te gusta esto.</a>
+            </div>
+          </div>
+      </div>
+  </div>
+</main>
+
+
+
+
+<footer class="footer">
+  <div class="footer-social">
+    <ul class="lista-social">
+        <li class="social__itemFB">
+            <a class="social__link"href=""><i class="icono__social fab fa-facebook"></i></a>
+        </li>
+        <li class="social__itemTW">
+          <a class="social__link"href=""><i class="icono__social fab fa-twitter"></i></a>
+      </li>
+        <li class="social__itemIG">
+            <a class="social__link"href=""><i class="icono__social fab fa-google"></i></a>
+        </li>
+    </ul>
+</div>
+</footer>
+
+
+
+</body>
+</html>
